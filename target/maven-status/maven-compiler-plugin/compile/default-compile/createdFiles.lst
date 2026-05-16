@@ -1,0 +1,8 @@
+com\wemmbu\shots\commands\NukeShotCommand.class
+com\wemmbu\shots\WemmbuShots.class
+com\wemmbu\shots\listeners\StabShotListener$1.class
+com\wemmbu\shots\listeners\NukeShotListener$1.class
+com\wemmbu\shots\ShotItems.class
+com\wemmbu\shots\listeners\NukeShotListener.class
+com\wemmbu\shots\listeners\StabShotListener.class
+com\wemmbu\shots\commands\StabShotCommand.class

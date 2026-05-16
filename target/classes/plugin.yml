@@ -1,0 +1,26 @@
+name: WemmbuShots
+version: 1.0.0
+main: com.wemmbu.shots.WemmbuShots
+api-version: 1.12
+author: Wemmbu
+description: Adds Nuke Shot and Stab Shot items with custom permissions.
+
+commands:
+  nukeshot:
+    description: Gives you the Nuke Shot item.
+    usage: /nukeshot
+    permission: nukeshot.use
+    permission-message: "&cYou don't have permission to use Nuke Shot!"
+  stabshot:
+    description: Gives you the Stab Shot item.
+    usage: /stabshot
+    permission: stabshot.use
+    permission-message: "&cYou don't have permission to use Stab Shot!"
+
+permissions:
+  nukeshot.use:
+    description: Allows the player to use the Nuke Shot.
+    default: op
+  stabshot.use:
+    description: Allows the player to use the Stab Shot.
+    default: op
